@@ -84,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		950B9C872966C70300AD3B73 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9598C054295C040B00C32202 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		95D3224529504A96000E0626 = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				95D3227C2950589C000E0626 /* Models */,
-				95D3225129504A96000E0626 /* ScrumdingerApp.swift */,
 				95D3228329505BB1000E0626 /* Views */,
+				95D3225129504A96000E0626 /* ScrumdingerApp.swift */,
 				95D3225529504A99000E0626 /* Assets.xcassets */,
 				95D3225729504A99000E0626 /* Scrumdinger.entitlements */,
 				95D3225829504A99000E0626 /* Preview Content */,
@@ -145,7 +153,6 @@
 		95D3227C2950589C000E0626 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				95D3227D295058B4000E0626 /* Theme.swift */,
 				95D3228129505A1A000E0626 /* DailyScrum.swift */,
 			);
 			path = Models;
@@ -155,10 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				95D322862950622B000E0626 /* Utils */,
+				950B9C872966C70300AD3B73 /* Detail */,
 				95D3225329504A96000E0626 /* MeetingView.swift */,
 				95D3228429505BD3000E0626 /* CardView.swift */,
 				95D3228929514E71000E0626 /* ScrumsView.swift */,
-				9598C054295C040B00C32202 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +173,7 @@
 		95D322862950622B000E0626 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				95D3227D295058B4000E0626 /* Theme.swift */,
 				95D3228729506241000E0626 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Utils;
